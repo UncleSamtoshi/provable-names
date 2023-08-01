@@ -1,0 +1,11 @@
+{
+  "name": "provable-names",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/UncleSamtoshi/provable-names.git",
+  "author": "Sam Peters <unclesamtoshi@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^3.1.0"
+  }
+}
