@@ -59,17 +59,17 @@ const findDesirableName = (document, cost, shortNameLength) => {
 
 // Example usage
 
-const document = "This is my document that needs a name.";
-const nonce = "8a2e98984219cd3c46089e795c6b828cdf003d7c9ca7a0d8e40480c051813603"
+const document = "bc1q0pmqfjyc5ak7jac9z8jjky4g624uagsgwzx00d";
+const nonce = "0da0408c6704c59c01bfb2ad83edcfa9c5e62d9c5f84746a442d3dbc1d5d13e5"
 const cost = 5;
 const proof = getProof(document, cost, nonce);
 console.log(proof);
 
 // {
-//     document: 'This is my document that needs a name.',
-//     name: 'abandon abandon scheme start skull',
-//     fullName: 'abandon abandon scheme start skull text subject shoulder sudden exclude credit wool anchor rural obscure village rule impact all text real clap any sting',
-//     shortName: 'scheme start skull',
+//     document: 'bc1q0pmqfjyc5ak7jac9z8jjky4g624uagsgwzx00d',
+//     name: 'abandon abandon dish loan fabric',
+//     fullName: 'abandon abandon dish loan fabric alter rack ankle allow special weather flip stick middle evidence rescue hybrid ostrich amateur improve tree piano art symptom',
+//     shortName: 'dish loan fabric',
 //     cost: 5,
-//     nonce: '8a2e98984219cd3c46089e795c6b828cdf003d7c9ca7a0d8e40480c051813603'
-//   }
+//     nonce: '0da0408c6704c59c01bfb2ad83edcfa9c5e62d9c5f84746a442d3dbc1d5d13e5'
+// }

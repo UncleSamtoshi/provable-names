@@ -1,6 +1,8 @@
 # Provable Name
 
-A provable name is a name that commits to its underlying content with a certain cost associated with forging it. It allows for arbitrary content to be referred to by a human readable name.
+A provable name is a name that commits to its underlying content with a certain cost associated with forging it. It allows for arbitrary content to be referred to by a human readable name. 
+
+For example, the bitcoin address "bc1q0pmqfjyc5ak7jac9z8jjky4g624uagsgwzx00d" has a provable name of "dish loan fabric". An individual could post this provable name to an untrusted 3rd party and then tell others they can be paid at "dish loan fabric". The paying person could ask the untrusted 3rd party for the bitcoin address and then verify the address is correct by checking the relative cost of forging the name. If the cost of forgery is high enough, the paying person can be confident that the address is the correct one the name was referring to.
 
 ## Definitions
 
