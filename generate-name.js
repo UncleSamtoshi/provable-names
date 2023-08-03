@@ -54,6 +54,11 @@ const isProvableNameForDocument = (name, document, cost, nonce) => {
     return nameForDoc === name;
 };
 
+const isProvableShortNameForDocument = (shortName, document, cost, nonce) => {
+    const name = getNameFromShortName(shortName, cost);
+    return isProvableNameForDocument(name, document, cost, nonce);
+};
+
 
 
 const findDesirableName = (document, cost, desiredShortNameLength) => {
